@@ -12,7 +12,7 @@ struct Place{
 	char surname[40];
 	
 };
-
+//This method compare two strings
 int comparison(char name1[], char name2[]){
 	for (int i = 0; i < fmin(strlen(name1), strlen(name2)); i++){
 		if (name1[i] > name2[i])
