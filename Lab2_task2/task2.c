@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+//структура где будем хранить данные
 struct dateBirth {
 	int day;
 	int month;
@@ -21,7 +21,7 @@ int authentMonth(int nomber){
 			return 1;
 	}
 }
-
+//функция для проверки года на высокосность
 int isYearVis(int year){
 	if (year % 4 == 0){
 		if (year % 100 == 0){
