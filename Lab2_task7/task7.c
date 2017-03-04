@@ -152,7 +152,7 @@ int main(){
 	struct Place places[COUNT_SEETS];
 	int count;
 	startInitial(places);
-	FILE *output = NULL;
+	FILE *output = NULL;//Tis is file, which we load and rewrite
 	output = fopen("file.bin", "rb");
 	if (output == NULL) {
 		printf("Error opening file");
