@@ -101,6 +101,6 @@ int main(){
 	}
 
 	allSeconds = (((allDays * HOURS_IN_DAY) + allHours) * MINUTS_IN_HOUR + allMinutes) * SEC_IN_MINUTE;
-	printf("Your life is %d seconds", allSeconds);
+	printf("Your life is %d seconds from your birth to current year", allSeconds);
 
 }
