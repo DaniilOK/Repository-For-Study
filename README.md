@@ -1,2 +1,6 @@
 # Repository-For-Study
-It is testing repository. The aim of it creation is to understand how to work wit github.
+
+
+Бойко Даниил Петрович
+2 курс 13 группа
+почта: daniil.boyko.2017@gmail.com
